@@ -12,7 +12,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.0.0",
     "git-commit-msg-linter": "^3.2.8",
-    "husky": "^7.0.2"
+    "husky": "^7.0.2",
+    "ts-node-dev": "^1.1.8"
   },
   "devDependencies": {
     "@types/jest": "^27.0.2",
@@ -23,6 +24,7 @@
     "typescript": "*"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
   }
 }
